@@ -4,7 +4,7 @@
 
 
 body {
-    background-color: #E2DAC9;
+    background-color: #3c3c3c;
     font-family: "Peralta", serif;
     font-weight: 400;
     font-style: normal;
@@ -33,17 +33,18 @@ button {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #69A2B0;
+    background-color: #3c3c3c;
 }
 
 header {
     display: flex;
     height: 8vh;
-    width: 98vw;
+    width: 97vw;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    color: #FFFFFF;
+    color: #eeeee4;
+
 }
 
 #navContainer {
@@ -52,7 +53,7 @@ header {
     width: 100vw;
     flex-direction: row;
     justify-content: center;
-    background-color:#8d7795;
+    background-color:#eeeee4;
     
 }
 
@@ -73,6 +74,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #ffffff;
     
 }
 
@@ -99,7 +101,7 @@ header {
 .oddJobObject {
     width: 20vw;
     height: 20vw;
-    background-color:#69A2B0;     
+    background-color:#eeeee4;     
 }
 
 #aboutContainer {
@@ -115,12 +117,8 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color:#34090F;
-
-      
-    
+    color:#34090F; 
 }
-
 
 .createJobForm {
     position:absolute;
