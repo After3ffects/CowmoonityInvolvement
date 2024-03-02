@@ -63,6 +63,8 @@ const finishCreateJobForm = () => {
 
     document.getElementById("content").appendChild(newJobObject);
 
-    console.log(newJobObject);
+    userCount = userCount - amount;
+    updateUserCount();
+    
 }
 
