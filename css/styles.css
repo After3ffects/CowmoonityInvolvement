@@ -11,15 +11,15 @@ body {
 } 
 
 button {
-    background-color:#E2DAC9;
+    background-color:#eeeee4;
     display: inline-block;
-    color: #34090F;
     padding: 1vh 2vw;
     text-align: center;
     text-decoration: none;
     font-size: 1vw;
     border-radius: 12px;
     margin: 10px;
+    border:none;
 }
 
 #headerCountValue {
