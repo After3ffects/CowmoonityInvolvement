@@ -39,7 +39,7 @@ button {
 }
 
 button:hover {
-    color:rgb(220, 18, 18);
+    filter: drop-shadow(2px 2px grey);
   }
   
 #headerCountValue {
