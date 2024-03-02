@@ -7,7 +7,7 @@
     <!--Get crypto for doing odd jobs-->
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
-<body>
+<body style="overflow-x: hidden;">
     <div id="container">
         <div id="headerContainer">
             <header>
@@ -19,7 +19,7 @@
             <div id="nav">
                 <a id="navFind"><button>Find Odd Jobs</button></a>
                 <a id="navCreate"><button>Create A Job</button></a>
-                <a id="navAbout"><button>About</button></a>
+                <a id="navAbout" onclick="bottomFunction()"><button>About</button></a>
             </div>
         </div>
         <div id="center">
@@ -30,6 +30,7 @@
             <div id="createJobForm">
                 <div id="closeButton">&times;</div>
                 <h1>Create a Job</h1>
+                
             </div>
             <div id="content">
                 <div class="oddJobObject"></div>

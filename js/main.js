@@ -9,10 +9,6 @@ async function updateQuote() {
     let quote = quoteData[index];
     document.getElementById("headerQuote").innerHTML = quote;
     console.log(index);
-
-
-
-    
 }
 
 
