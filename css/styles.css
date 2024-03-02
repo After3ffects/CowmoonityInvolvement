@@ -5,8 +5,9 @@
 
 body {
     background-color: #E2DAC9;
-    font-family: "Montserrat", sans-serif;
-
+    font-family: "Peralta", serif;
+    font-weight: 400;
+    font-style: normal;
 } 
 
 button {
