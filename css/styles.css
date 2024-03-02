@@ -13,11 +13,12 @@ button {
     background-color:#E2DAC9;
     display: inline-block;
     color: #34090F;
-    padding: 15px 32px;
+    padding: 1vh 2vw;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
     border-radius: 12px;
+    margin: 10px;
 }
 
 #headerCountValue {
@@ -56,7 +57,6 @@ header {
 
 #nav {
     display: flex;
-    width: 30vw;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
