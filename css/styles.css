@@ -34,8 +34,14 @@ button {
     border-radius: 12px;
     margin: 10px;
     border:none;
+    cursor: pointer;
+
 }
 
+button:hover {
+    color:rgb(220, 18, 18);
+  }
+  
 #headerCountValue {
     width:15vw;
 }
