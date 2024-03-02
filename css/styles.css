@@ -171,13 +171,19 @@ header {
     width:100%;
     padding: 6px;
     font-size:17px;
+    font-family: "Peralta", serif;
+    font-weight: 400;
+    font-style: normal;
     border: 2px solid #eee;
-    background: transparent;
     outline: none;
     border-radius: 10px;
 }
 
 .createJobForm button {
+    padding: 0;
+    font-family: "Peralta", serif;
+    font-weight: 400;
+    font-style: normal;
     margin-top:10px;
     width: 100px;
     height: 35px;
