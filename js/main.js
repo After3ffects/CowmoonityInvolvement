@@ -1,8 +1,6 @@
 async function updateQuote() {
     let quoteData;
-
     const res = await fetch('./CowQuotes.json')
-
     quoteData = await res.json();
     quoteData= quoteData["Quotes"];
     let index = Math.floor(Math.random() * (quoteData.length));
@@ -11,14 +9,13 @@ async function updateQuote() {
     console.log(index);
 }
 
+updateQuote();
 
 let navAbout = document.getElementById("navAbout");
+function bottomFunction() {
+    window.scrollTo(0, document.body.scrollHeight || document.documentElement.scrollHeight);
+}
 
-    function bottomFunction() {
-        window.scrollTo(0, document.body.scrollHeight || document.documentElement.scrollHeight);
-    }
-
-
-
-
-updateQuote();
+const toggleCreateJobForm = () => {
+    document.body.classList.toggle('activeForm');
+}

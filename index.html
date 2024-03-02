@@ -18,7 +18,7 @@
         <div id="navContainer">
             <div id="nav">
                 <a id="navFind"><button>Find Odd Jobs</button></a>
-                <a id="navCreate"><button>Create A Job</button></a>
+                <a id="navCreate" onclick="toggleCreateJobForm()"><button>Create A Job</button></a>
                 <a id="navAbout" onclick="bottomFunction()"><button>About</button></a>
             </div>
         </div>
@@ -27,10 +27,28 @@
                 <h1>CowMoonity Involvment</h1>
                 <h3>Get CowCoin for doing odd jobs in the community</h3>
             </div>
-            <div id="createJobForm">
-                <div id="closeButton">&times;</div>
+            <div class="createJobForm">
+                <div class="closeButton" onclick="toggleCreateJobForm()">&times;</div>
                 <h1>Create a Job</h1>
-                
+                <div class="createJobFormElement">
+                    <label for="title">Title</label>
+                    <input type="text" id="createJobTitle">
+                </div>
+                <div class="createJobFormElement">
+                    <label for="description">Description</label>
+                    <input type="text" id="createJobDescription">
+                </div>
+                <div class="createJobFormElement">
+                    <label for="amount">Amount</label>
+                    <input type="text" id="createJobAmount">
+                </div>
+                <div class="createJobFormElement">
+                    <label for="email">Email</label>
+                    <input type="email" id="createJobEmail">
+                </div>
+                <div class="createJobFormElement">
+                    <button>Complete</button>
+                </div>
             </div>
             <div id="content">
                 <div class="oddJobObject"></div>
