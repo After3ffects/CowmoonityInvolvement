@@ -127,7 +127,7 @@ header {
 .oddJobObject 
 
 #aboutContainer {
-    margin:top;
+    margin-top: 5vh;
     display: flex;
     flex-direction: row;
     width:100vw;
@@ -137,6 +137,7 @@ header {
 }
 
 #about {
+    margin-top: 5vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
