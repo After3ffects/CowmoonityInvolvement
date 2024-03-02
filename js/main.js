@@ -19,3 +19,10 @@ function bottomFunction() {
 const toggleCreateJobForm = () => {
     document.body.classList.toggle('activeForm');
 }
+
+let userCount = 100;
+const updateUserCount = () => {
+    document.getElementById("headerCountValue").innerHTML = userCount;
+}
+
+updateUserCount();

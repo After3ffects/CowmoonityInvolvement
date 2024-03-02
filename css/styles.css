@@ -20,7 +20,6 @@ button {
     border-radius: 12px;
 }
 
-
 #headerCountValue {
     width:15vw;
 }
@@ -38,7 +37,7 @@ button {
 header {
     display: flex;
     height: 8vh;
-    width: 90vw;
+    width: 98vw;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
@@ -79,10 +78,10 @@ header {
 #center {
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    margin-left:5vw;
+    width: 90vw;
     justify-content: center;
     align-items: center;
-    
 }
 
 #quoteButton {
