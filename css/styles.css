@@ -3,6 +3,20 @@
 }
 
 
+@font-face {
+    font-family: 'happy_cowbold';
+    src: url('../fonts/happycow-webfont.woff2') format('woff2'),
+         url('../fonts/happycow-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+    font-family: 'happy_cowbold';
+
+}
+
 body {
     background-color: #E2DAC9;
     font-family: "Peralta", serif;
