@@ -3,6 +3,27 @@
 }
 
 
+body {
+    background-color: #D0E0CC;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+} 
+
+button {
+    background-color:#D0E0CC;
+    display: inline-block;
+    color: #34090F;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+
+
+
+
 #headerCountValue {
     width:15vw;
 }
@@ -14,7 +35,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #24252A;
+    background-color: #69A2B0;
 }
 
 header {
@@ -24,7 +45,7 @@ header {
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    color: whitesmoke;
+    color: #FFFFFF;
 }
 
 #navContainer {
@@ -33,7 +54,8 @@ header {
     width: 100vw;
     flex-direction: row;
     justify-content: center;
-    background-color:blue;
+    background-color:#8d7795;
+    
 }
 
 #nav {
@@ -42,6 +64,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 #top {
@@ -51,6 +74,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 #center {
@@ -59,6 +83,7 @@ header {
     width: 100vw;
     justify-content: center;
     align-items: center;
+    
 }
 
 #quoteButton {
@@ -69,6 +94,26 @@ header {
     display: grid;
     grid-gap:1vw;
     grid-template-columns: 12vw 12vw 12vw 12vw 12vw;
+    color:#34090F;
+}
+
+#aboutContainer {
+    display: flex;
+    flex-direction: row;
+    width:100vw;
+    justify-content:center;
+    align-items: center;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#34090F;
+
+      
+    
 }
 
 
@@ -144,7 +189,7 @@ header {
 .oddJobObject {
     width: 10vw;
     height: 10vw;
-    background-color: red;     
+    background-color:#69A2B0;     
 }
 
 body.activeForm .createJobForm {
@@ -154,3 +199,4 @@ body.activeForm .createJobForm {
     height: 100vh;
     transition: top 500ms ease-in-out, opacity 500ms ease-in-out, height 0ms ease-in-out 0ms;
 }
+
