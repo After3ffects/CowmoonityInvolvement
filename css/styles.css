@@ -2,33 +2,45 @@
     margin: 0;
 }
 
-#container {
-    width: 100vw;
-    height: 100vh;
-}
-
 
 #headerCountValue {
     width:15vw;
 }
 
+#headerContainer {
+    display: flex;
+    width: 100vw;
+    height: 8vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #24252A;
+}
+
 header {
-    padding-left: 1vw;
     display: flex;
     height: 8vh;
-    width: 100vw;
+    width: 90vw;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #24252A;
     color: whitesmoke;
 }
 
-#nav {
+#navContainer {
     display: flex;
     height: 10vh;
     width: 100vw;
     flex-direction: row;
+    justify-content: center;
+    background-color:blue;
+}
+
+#nav {
+    display: flex;
+    width: 30vw;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -47,17 +59,6 @@ header {
     width: 100vw;
     justify-content: center;
     align-items: center;
-}
-
-#quoteContent {
-    margin-top: 20vh;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 10vh;
 }
 
 #quoteButton {
