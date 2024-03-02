@@ -42,10 +42,12 @@
 
 #content {
     display: grid;
+    grid-gap:1vw;
+    grid-template-columns: 12vw 12vw 12vw 12vw 12vw;
 }
 
 .oddJobObject {
     width: 10vh;
     height: 10vh;
-    background-color: red;
+    background-color: red;     
 }
