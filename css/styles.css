@@ -39,3 +39,13 @@
 #quoteButton {
     border: none;
 }
+
+#content {
+    display: grid;
+}
+
+.oddJobObject {
+    width: 10vh;
+    height: 10vh;
+    background-color: red;
+}
