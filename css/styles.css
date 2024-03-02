@@ -124,6 +124,8 @@ header {
     background-color:#eeeee4;     
 }
 
+.oddJobObject 
+
 #aboutContainer {
     display: flex;
     flex-direction: row;
