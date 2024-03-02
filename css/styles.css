@@ -131,7 +131,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color:#34090F; 
+    color: #eeeee4;; 
 }
 
 .createJobForm {
